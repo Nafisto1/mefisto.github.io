@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>portefolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+  <div class="b">
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-n"></i>
+        </div>
+        <div class="cabeçalho-link">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Sobre</a>
+            </li>
+            <li>
+                <a href="#">Serviços</a>
+            </li>
+            <li>
+                <a href="#">Trabalho<span>Em andamento</span></a>
+            </li>
+            <button>Meu contato<span> 81 98304-3275 </span></button>
+
+        </div>
+    </header>
+
+    <div class="container-text">
+        <div class="text">
+        <h3>Olá,pessoal</h3>
+        <h1>Eu sou Nafisto Naliano</span></h1>
+        <p>Aluno de Analise e Desenvolvimento de Sistemas</p>
+        <div class="redes-sociais">
+            <a href="https://www.instagram.com/junim_silva07/"><i class="fa-brands fa-instagram"></i>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nafisto-naliano-54a5a4329/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <button class="btn" onclick="abrirMenu()"> Sobre Mim</button> 
+
+        <nav id="fechar">          
+            <img src="assets/imagem.jpeg" alt="Minha Figura">
+            <h4>Cursando Análise e Desenvolvimento de Sistemas na Universidade UNINASSAU, tenho 20 anos de idade. Tenho o objetivo de seguir carreira na área de Tecnologia da Informação (TI), focando no desenvolvimento de soluções tecnológicas e aprimorando minhas  habilidades em programação e sistemas.</h4><br>
+            <a href="#" onclick="fecharMenu()">&times; Fechar</a><br>          
+        </nav>
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+		
+    function abrirMenu(){
+        document.getElementById('fechar').style.width = '250px';
+    }
+    
+    function fecharMenu() {
+        document.getElementById('fechar').style.width = '0px';
+    }
+    
+</script>
+
+</body>
+</html>
